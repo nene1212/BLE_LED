@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#AA93FF"
+    android:keepScreenOn="true"
+    tools:context=".LinkWaitingActivity">
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ww"
+        android:layout_marginLeft="10dp"
+        android:scaleType="fitCenter"
+        android:layout_centerInParent="true"/>
+
+
+    <TextView
+        android:id="@+id/hello"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#2B2B2B"
+        android:padding="10dp"
+        android:text=""
+        android:scaleType="fitCenter"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/log"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:textColor="#666"
+        android:text="正在寻找你的夜灯..."
+        android:textSize="20dp"
+        android:gravity="center"/>
+
+
+</RelativeLayout>
